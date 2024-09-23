@@ -1,3 +1,7 @@
+i{
+    margin-rigth: 10px;
+}
+
 h2{
     font-weight: 500;
     margin: 0;
@@ -16,24 +20,27 @@ tr{
     margin: 10px;
     padding: 10px;
     background-color: rgba(79, 255, 31, 0.5);
-    border-radius: 5px;
-    border: rgb(79, 255, 31) solid 1px;
+    border-radius: 10px;
+    border-left: rgb(79, 255, 31) solid 2px;
+    border-right: rgb(79, 255, 31) solid 2px;
 }
 
 #detections-suspicious{
     margin: 10px;
     padding: 10px;
     background-color: rgba(255, 215, 0, 0.5);
-    border-radius: 5px;
-    border: gold solid 1px;
+    border-radius: 10px;
+    border-left: gold solid 2px;
+    border-right: gold solid 2px;
 }
 
 #detections-cheat{
     margin: 10px;
     padding: 10px;
     background-color: rgba(255, 0, 0, 0.5);
-    border-radius: 5px;
-    border: red solid 1px;
+    border-radius: 10px;
+    border-left: red solid 2px;
+    border-right: red solid 2px;
 }
 
 #form{
