@@ -30,8 +30,8 @@ tr{
     padding: 10px;
     background-color: rgb(32, 32, 32);
     border-radius: 10px;
-    border-left: gold solid 2px;
-    border-right: gold solid 2px;
+    border-left: rgb(255, 215, 0) solid 2px;
+    border-right: rgb(255, 215, 0) solid 2px;
 }
 
 #detections-cheat{
@@ -39,8 +39,8 @@ tr{
     padding: 10px;
     background-color: rgb(32, 32, 32);
     border-radius: 10px;
-    border-left: red solid 2px;
-    border-right: red solid 2px;
+    border-left: rgb(255, 0, 0) solid 2px;
+    border-right: rgb(255, 0, 0) solid 2px;
 }
 
 #form{
