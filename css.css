@@ -19,7 +19,7 @@ tr{
 #detections-clean{
     margin: 10px;
     padding: 10px;
-    background-color: rgba(79, 255, 31, 0.5);
+    background-color: rgb(32, 32, 32);
     border-radius: 10px;
     border-left: rgb(79, 255, 31) solid 2px;
     border-right: rgb(79, 255, 31) solid 2px;
@@ -28,7 +28,7 @@ tr{
 #detections-suspicious{
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 215, 0, 0.5);
+    background-color: rgb(32, 32, 32);
     border-radius: 10px;
     border-left: gold solid 2px;
     border-right: gold solid 2px;
@@ -37,7 +37,7 @@ tr{
 #detections-cheat{
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgb(32, 32, 32);
     border-radius: 10px;
     border-left: red solid 2px;
     border-right: red solid 2px;
