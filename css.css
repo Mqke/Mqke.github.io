@@ -34,7 +34,7 @@ tr{
     border-right: rgb(255, 215, 0) solid 3px;
 }
 
-#detections-cheat{
+#detections-cheat, #detections-cheating{
     margin: 10px;
     padding: 10px;
     background-color: rgb(32, 32, 32);
