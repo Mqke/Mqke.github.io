@@ -47,8 +47,6 @@ tr{
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    border-left: rgb(0, 0, 0) solid 3px;
-    border-right: rgb(0, 0, 0) solid 3px;
 }
 
 #form{
