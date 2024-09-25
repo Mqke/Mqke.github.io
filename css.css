@@ -9,7 +9,7 @@ h2{
 }
 
 tr:nth-child(even){
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(32, 32, 32);
 }
 
 tr{
