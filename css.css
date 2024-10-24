@@ -23,6 +23,7 @@ tr{
     border-radius: 10px;
     border-left: rgb(79, 255, 31) solid 3px;
     border-right: rgb(79, 255, 31) solid 3px;
+    word-break: break-all;
 }
 
 #detections-suspicious{
@@ -32,6 +33,7 @@ tr{
     border-radius: 10px;
     border-left: rgb(255, 215, 0) solid 3px;
     border-right: rgb(255, 215, 0) solid 3px;
+    word-break: break-all;
 }
 
 #detections-cheat, #detections-cheating{
@@ -41,6 +43,7 @@ tr{
     border-radius: 10px;
     border-left: rgb(255, 0, 0) solid 3px;
     border-right: rgb(255, 0, 0) solid 3px;
+    word-break: break-all;
 }
 
 #form{
