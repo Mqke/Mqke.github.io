@@ -39,7 +39,7 @@ body
 .table-container
 {
     padding: 1rem;
-    max-height: 350px;
+    max-height: 400px;
     overflow-y: auto;
 }
 
