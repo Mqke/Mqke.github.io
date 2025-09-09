@@ -1,117 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scanner - Results</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://mqke.github.io/Scanner/cssV2.css">
+    <link rel="stylesheet" href="https://mqke.github.io/Scanner/css_debug.css">
 </head>
 <body>
 
-	%ScanResult%
+%ScanResult%
 
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-crosshairs"></i> Detections
-                </div>
-            </div>
-            <div class="table-container">
-                %DetectionsDatas%
+<div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-crosshairs"></i> Detections
             </div>
         </div>
-
-        <div class="card" id="scan-infos">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-info-circle"></i> Scan Informations
-                </div>
-            </div>
-            <div class="table-container">
-                <table cellpadding="8px">
-                    %ScanInformationsDatas%
-                </table>
-            </div>
+        <div id="table-container">
+            %DetectionsDatas%
         </div>
     </div>
+</div>
 
-
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-user"></i> Accounts
-                </div>
+<div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-user"></i> Accounts
             </div>
-            <div class="table-container">
-                <table cellpadding="8px">
+        </div>
+        <div id="table-container">
+            <table cellpadding="8px">
+                <tbody>
                     %AccountsDatas%
-                </table>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-info-circle"></i> Scan Informations
             </div>
         </div>
-
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-microchip"></i> Processes
-                </div>
+        <div id="table-container">
+            <table cellpadding="8px">
+                <tbody>
+                    %ScanInformationsDatas%
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-microchip"></i> Processes
             </div>
-            <div class="table-container">
-                <table cellpadding="8px">
+        </div>
+        <div id="table-container">
+            <table cellpadding="8px">
+                <tbody>
                     %ProcessesDatas%
-                </table>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-history"></i> Records
-                </div>
-            </div>
-            <div class="table-container">
-                <table cellpadding="8px">
-                    %RecordsDatas%
-                </table>
-            </div>
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
 
-
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-folder"></i> PCAClient
-                </div>
+<div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-folder"></i> PCAClient
             </div>
-            <div class="table-container">
-                <table cellpadding="8px">
+        </div>
+        <div id="table-container">
+            <table cellpadding="8px">
+                <tbody>
                     %PCAClientDatas%
-                </table>
-            </div>
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
 
-
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    <i class="fa fa-folder"></i> Activities
-                </div>
+<div>
+    <div id="card">
+        <div id="card-header">
+            <div>
+                <i class="fa fa-folder"></i> Activities
             </div>
-            <div class="table-container">
-                <table cellpadding="8px">
+        </div>
+        <div id="table-container">
+            <table cellpadding="8px">
+                <tbody>
                     %ActivitiesDatas%
-                </table>
-            </div>
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
 
 </body>
 </html>
